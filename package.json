@@ -1,0 +1,16 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "Automated Deployment",
+  "main": "ssh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "author": "zouyu",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.2.0",
+    "ssh2-sftp-client": "^5.1.2"
+  }
+}
